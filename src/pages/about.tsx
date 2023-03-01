@@ -10,12 +10,9 @@ export default function About() {
       <nav>
         <Link href="/">Home</Link>
         <Link href="/">About</Link>
-        <style jsx>{`
+        <style jsx global>{`
           nav {
             background-color: green;
-          }
-          Link {
-            text-decoration: none;
           }
         `}</style>
       </nav>
