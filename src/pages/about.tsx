@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import styles from './about.module.css';
 
 export default function About() {
   const router = useRouter();
@@ -9,13 +10,19 @@ export default function About() {
     <div>
       <nav>
         <Link
-          style={{ color: router.pathname === '/' ? 'red' : 'green' }}
+          className={`
+          ${styles.line}
+          ${router.pathname === '/' ? styles.active : ''}
+          `}
           href="/"
         >
           Home
         </Link>
         <Link
-          style={{ color: router.pathname === '/about' ? 'red' : 'green' }}
+          className={[
+            styles.link,
+            router.pathname === '/about' ? styles.active : 'gren',
+          ].join(' ')}
           href="/"
         >
           About
