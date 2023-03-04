@@ -11,6 +11,33 @@ body {
   background-color: #fff;
 }
 
-.bg-gray-100 {
-  background-color: #f7fafc;
+.bg-100 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-100 {
+  height: 10vh;
+}
+
+.expand-item {
+  flex-grow: 1;
+  background-color: chocolate;
+}
+
+.dev-border-1 {
+  border: 3px solid rgb(255, 0, 0);
+}
+
+.dev-border-2 {
+  border: 3px solid rgb(0, 94, 255);
+}
+
+.dev-border-3 {
+  border: 3px solid rgb(0, 255, 64);
+}
+
+.dev-border-4 {
+  border: 3px solid rgb(255, 247, 0);
 }
