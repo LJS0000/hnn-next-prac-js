@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3690",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,12 +16,18 @@
     "next": "13.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.4",
+    "react-query": "^3.39.3",
+    "tailwind": "^4.0.0",
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.4"
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.7"
   }
 }
